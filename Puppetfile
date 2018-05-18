@@ -17,7 +17,7 @@ mod 'puppetlabs/concat',      '4.2.1'
 #  :branch => 'docs_experiment'
 
 mod 'ssh'
-  :git => "git@github.com:savipavan/puppet-ssh.git"
+  :git => "git@github.com:savipavan/puppet-ssh.git",
   :ref => 'production'
 
 #mod 'ntp'
