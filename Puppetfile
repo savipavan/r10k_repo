@@ -15,3 +15,19 @@ mod 'puppetlabs/concat',      '4.2.1'
 #mod 'apache',
 #  :git    => 'https://github.com/puppetlabs/puppetlabs-apache',
 #  :branch => 'docs_experiment'
+
+mod 'ssh'
+  :git => 'https://github.com/venkatavarri/puppet-ssh.git',
+  :ref => 'master'
+
+mod 'ntp'
+  :git => 'https://github.com/venkatavarri/puppet-ntp.git',
+  :ref => 'master'
+
+mod 'role',
+  :git => 'https://github.com/venkatavarri/puppet-role.git',
+  :ref => 'master'
+
+mod 'profile',
+  :git => 'https://github.com/venkatavarri/puppet-profile.git',
+  :ref => 'master'
