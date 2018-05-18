@@ -18,7 +18,7 @@ mod 'puppetlabs/concat',      '4.2.1'
 
 mod 'ssh'
   :git => "git@github.com:savipavan/puppet-ssh.git",
-  :ref => 'production'
+#  :ref => 'production'
 
 #mod 'ntp'
  # :git => 'https://github.com/venkatavarri/puppet-ntp.git',
